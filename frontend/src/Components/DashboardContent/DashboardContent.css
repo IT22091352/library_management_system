@@ -88,3 +88,8 @@
   margin-top: auto;
   font-size: 0.9rem;
 }
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/IT22091352/library_management_system.git
+git push -u origin master
