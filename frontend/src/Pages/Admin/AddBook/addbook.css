@@ -1,0 +1,107 @@
+/* Form Container */
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 800px; /* Increased width for better layout */
+  margin: 50px auto;
+}
+
+/* Form Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="url"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Image Options */
+.image-options {
+  display: flex;
+  align-items: center;
+}
+
+/* Image Preview */
+.image-preview {
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+/* Google Image Search */
+.google-image-search {
+  margin-top: 10px;
+}
+
+/* Image Results */
+.image-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* Search Result Images */
+.search-result-image {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

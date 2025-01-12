@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Book Card Container */
+  .book-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Book Title */
+  .book-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+    padding: 16px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  /* Book Image */
+  .book-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Book Author */
+  .book-author {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555555;
+    padding: 12px 16px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  /* Book Description */
+  .book-description {
+    font-size: 0.95rem;
+    color: #666666;
+    line-height: 1.6;
+    padding: 16px;
+    text-align: justify;
+  }
+  
+  /* Book Buttons Container */
+  .book-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  /* Book Buttons */
+  .book-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .book-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Update Button Specific Styles */
+  .book-button.update {
+    background-color: #28a745;
+  }
+  
+  .book-button.update:hover {
+    background-color: #218838;
+  }
+  
+  /* Delete Button Specific Styles */
+  .book-button.delete {
+    background-color: #dc3545;
+  }
+  
+  .book-button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .book-card {
+      max-width: 100%;
+      margin: 10px;
+    }
+  
+    .book-title {
+      font-size: 1.3rem;
+    }
+  
+    .book-author {
+      font-size: 1rem;
+    }
+  
+    .book-description {
+      font-size: 0.9rem;
+    }
+  
+    .book-button {
+      padding: 8px 16px;
+      font-size: 0.85rem;
+    }
+  }
